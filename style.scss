@@ -21,6 +21,9 @@ main {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+    @media screen and (max-width: 992px) {
+        width:95%;
+    }
 }
 
 .description {
