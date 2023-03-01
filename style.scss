@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.cover-container {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 6, 0.5382528011204482) 35%, rgba(0, 0, 0, 0.29735644257703087) 100%), url(img/773484.jpg);
+
+    background-size: cover;
+    background-position: left;
+    height: 95vh !important;
+}
+
+.logo {
+    width: 200px;
+}
+
+main {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.description {
+    font-size: 18px;
+    line-height: 2;
+}
+
+
+////////////////////// sign
+.modal-content {
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.modal-body {
+    // background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 6, 0.5382528011204482) 35%, rgba(0, 0, 0, 0.29735644257703087) 100%),url(../ambyar228kb1f0ql.jpg);
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-color: rgb(25, 135, 84);
+    padding: 5px !important;
+
+    form {
+
+        width: 80%;
+
+        .form-floating>label {
+            color: black;
+        }
+    }
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
